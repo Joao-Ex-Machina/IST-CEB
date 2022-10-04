@@ -1,0 +1,10 @@
+* C:\users\comuna\Desktop\IST\2ano\2semestre\CEB\IST-CEB\labs\lab0\Draft2.asc
+V1 N001 0 SINE(0 5 5k)
+C1 N002 0 10µ
+D1 N001 N002 D
+.model D D
+.lib C:\users\comuna\Documents\LTspiceXVII\lib\cmp\standard.dio
+.tran 0.0004
+* Aval_1_13
+.backanno
+.end

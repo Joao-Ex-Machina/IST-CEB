@@ -1,0 +1,22 @@
+* C:\users\comuna\Desktop\IST\2ano\2semestre\CEB\IST-CEB\labs\lab1\lab1.asc
+Q2 Vcc N001 N005 0 BC547B
+Q1 N001 N004 N006 0 BC547B
+RC Vcc N001 2.2k
+R2 Vcc N007 68k
+C1 N003 N004 10µ
+R3 N002 N003 12k
+V1 N002 0 SINE(0 100m 2k) AC 1 0
+R4 N007 0 39k
+R5 N006 N008 350
+R6 N008 0 910
+C2 N008 0 1µ
+R7 N005 0 2.4k
+C3 Vout N005 10µ
+R8 Vout 0 1k
+V2 Vcc 0 5
+.model NPN NPN
+.model PNP PNP
+.lib C:\users\comuna\Documents\LTspiceXVII\lib\cmp\standard.bjt
+.tran 0 10m 0
+.backanno
+.end
